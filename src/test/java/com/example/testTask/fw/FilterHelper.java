@@ -12,8 +12,15 @@ public class FilterHelper extends HelperBase {
     }
 
     public String getItemNameFromListByOrder(int number) {
-        return wd.findElement(By.xpath("//*[@data-autotest-id='product-snippet']["+number+"]//h3")).getText();
+        return wd.findElement(By.xpath("//*[@data-autotest-id='product-snippet'][\"+number+\"]//h3")).getText();
+        //*[@data-autotest-id='product-snippet']["+number+"]//h3
+       // "//div[@class='_2Qo3ODl0by _1eVTqI-ogb cia-vs']/article["+ number +"]/div[4]//h3"
     }
+
+
+   /* public String foundItem(){
+        return wd.findElement(By.xpath("/html/body/div[2]/div[3]/div[3]/div[4]/div/div[1]/div/div[1]/div/article[3]/div[4]/div[1]/h3")).getText();
+    }*/
 
     public void filterItem(Item item) {
         click(By.cssSelector("[href='/catalog--"+ item.getItemType() +"']"));

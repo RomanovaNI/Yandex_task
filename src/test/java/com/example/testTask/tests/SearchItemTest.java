@@ -23,6 +23,7 @@ public class SearchItemTest extends TestBase {
         //  System.out.println(itemName);
         app.search().typeInSearchInputField(itemName);
         String foundItemName = app.filter().getItemNameFromListByOrder(1);
+
         Assert.assertEquals(foundItemName, itemName);
     }
 

@@ -1,0 +1,14 @@
+com/example/testTask/fw/ApplicationManager.java
+ com.example.testTask.fw.ApplicationManager
+com/example/testTask/tests/SearchItemTest.java
+ com.example.testTask.tests.SearchItemTest
+com/example/testTask/fw/SearchHelper.java
+ com.example.testTask.fw.SearchHelper
+com/example/testTask/tests/TestBase.java
+ com.example.testTask.tests.TestBase
+com/example/testTask/fw/FilterHelper.java
+ com.example.testTask.fw.FilterHelper
+com/example/testTask/models/Item.java
+ com.example.testTask.models.Item
+com/example/testTask/fw/HelperBase.java
+ com.example.testTask.fw.HelperBase

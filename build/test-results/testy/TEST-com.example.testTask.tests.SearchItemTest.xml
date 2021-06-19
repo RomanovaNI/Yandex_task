@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.testTask.tests.SearchItemTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-19T22:03:30" hostname="Saschas-MBP.fritz.box" time="17.159">
+  <properties/>
+  <testcase name="itemTest" classname="com.example.testTask.tests.SearchItemTest" time="17.159"/>
+  <system-out><![CDATA[00:03:30.817 [Test worker] INFO  com.example.testTask.tests.TestBase - Start test itemTest
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 2775
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 20, 2021 12:03:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
